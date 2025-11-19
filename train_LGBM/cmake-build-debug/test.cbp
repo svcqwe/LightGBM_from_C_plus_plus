@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="J:/ho-ho/Zero_Defect/Crashes/train_model/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="c:/MinGW_C++/w64devkit/bin/mingw32-make.exe -f &quot;J:/ho-ho/Zero_Defect/Crashes/train_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="c:/MinGW_C++/w64devkit/bin/mingw32-make.exe -f &quot;J:/ho-ho/Zero_Defect/Crashes/train_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="c:/MinGW_C++/w64devkit/bin/mingw32-make.exe -f &quot;J:/ho-ho/Zero_Defect/Crashes/train_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="c:/MinGW_C++/w64devkit/bin/mingw32-make.exe -f &quot;J:/ho-ho/Zero_Defect/Crashes/train_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="train_model">
+				<Option output="J:/ho-ho/Zero_Defect/Crashes/train_model/cmake-build-debug/train_model.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="J:/ho-ho/Zero_Defect/Crashes/train_model/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="J:/ho-ho/Zero_Defect/Crashes/train_model/include"/>
+					<Add directory="J:/ho-ho/External_c++_libs/LightGBM/include"/>
+					<Add directory="c:\mingw_c++\w64devkit\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/include/c++"/>
+					<Add directory="c:\mingw_c++\w64devkit\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw_c++\w64devkit\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw_c++\w64devkit\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/include"/>
+					<Add directory="c:\mingw_c++\w64devkit\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/include-fixed"/>
+					<Add directory="c:\mingw_c++\w64devkit\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="c:/MinGW_C++/w64devkit/bin/mingw32-make.exe -f &quot;J:/ho-ho/Zero_Defect/Crashes/train_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 train_model"/>
+					<CompileFile command="c:/MinGW_C++/w64devkit/bin/mingw32-make.exe -f &quot;J:/ho-ho/Zero_Defect/Crashes/train_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="c:/MinGW_C++/w64devkit/bin/mingw32-make.exe -f &quot;J:/ho-ho/Zero_Defect/Crashes/train_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="c:/MinGW_C++/w64devkit/bin/mingw32-make.exe -f &quot;J:/ho-ho/Zero_Defect/Crashes/train_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="train_model/fast">
+				<Option output="J:/ho-ho/Zero_Defect/Crashes/train_model/cmake-build-debug/train_model.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="J:/ho-ho/Zero_Defect/Crashes/train_model/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="J:/ho-ho/Zero_Defect/Crashes/train_model/include"/>
+					<Add directory="J:/ho-ho/External_c++_libs/LightGBM/include"/>
+					<Add directory="c:\mingw_c++\w64devkit\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/include/c++"/>
+					<Add directory="c:\mingw_c++\w64devkit\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw_c++\w64devkit\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw_c++\w64devkit\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/include"/>
+					<Add directory="c:\mingw_c++\w64devkit\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/include-fixed"/>
+					<Add directory="c:\mingw_c++\w64devkit\bin\../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="c:/MinGW_C++/w64devkit/bin/mingw32-make.exe -f &quot;J:/ho-ho/Zero_Defect/Crashes/train_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 train_model/fast"/>
+					<CompileFile command="c:/MinGW_C++/w64devkit/bin/mingw32-make.exe -f &quot;J:/ho-ho/Zero_Defect/Crashes/train_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="c:/MinGW_C++/w64devkit/bin/mingw32-make.exe -f &quot;J:/ho-ho/Zero_Defect/Crashes/train_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="c:/MinGW_C++/w64devkit/bin/mingw32-make.exe -f &quot;J:/ho-ho/Zero_Defect/Crashes/train_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="J:/ho-ho/Zero_Defect/Crashes/train_model/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="c:/MinGW_C++/w64devkit/bin/mingw32-make.exe -f &quot;J:/ho-ho/Zero_Defect/Crashes/train_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="c:/MinGW_C++/w64devkit/bin/mingw32-make.exe -f &quot;J:/ho-ho/Zero_Defect/Crashes/train_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="c:/MinGW_C++/w64devkit/bin/mingw32-make.exe -f &quot;J:/ho-ho/Zero_Defect/Crashes/train_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="c:/MinGW_C++/w64devkit/bin/mingw32-make.exe -f &quot;J:/ho-ho/Zero_Defect/Crashes/train_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="J:/ho-ho/Zero_Defect/Crashes/train_model/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="c:/MinGW_C++/w64devkit/bin/mingw32-make.exe -f &quot;J:/ho-ho/Zero_Defect/Crashes/train_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="c:/MinGW_C++/w64devkit/bin/mingw32-make.exe -f &quot;J:/ho-ho/Zero_Defect/Crashes/train_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="c:/MinGW_C++/w64devkit/bin/mingw32-make.exe -f &quot;J:/ho-ho/Zero_Defect/Crashes/train_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="c:/MinGW_C++/w64devkit/bin/mingw32-make.exe -f &quot;J:/ho-ho/Zero_Defect/Crashes/train_model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="J:/ho-ho/Zero_Defect/Crashes/train_model/main.cpp">
+			<Option target="train_model"/>
+		</Unit>
+		<Unit filename="J:/ho-ho/Zero_Defect/Crashes/train_model/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

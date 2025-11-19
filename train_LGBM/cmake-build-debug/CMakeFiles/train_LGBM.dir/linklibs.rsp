@@ -1,0 +1,1 @@
+  -LJ:/ho-ho/Zero_Defect/Crashes/train_LGBM/lib  -LJ:/ho-ho/External_c++_libs/LightGBM  -lpq -l_lightgbm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
